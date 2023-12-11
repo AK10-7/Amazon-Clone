@@ -1,0 +1,332 @@
+*{
+    margin: 0px;
+    border: border-box;
+    font-family: Arial;
+    
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border-color: white;
+}
+.search_bar:hover{
+    border: 2px solid rgb(234, 178, 74);
+    border-radius: 4px;
+}
+.nav_bar{
+    height: 70px;
+    background-color: rgb(17, 15, 19);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav_logo{
+    height: 60px;
+    width: 170px;
+    background-color: palevioletred;
+    
+}
+.logo{
+    height: 60px;
+    width: 170px;
+    background-image: url(images/icon.jpg);
+    background-size: cover;
+}
+.location{
+    height: 60px;
+    width: 110px;
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.loc_p1{
+    margin-left: 16px;
+    
+}
+.loc_p2 p{
+    margin-left: 2px;
+}
+.loc_p2{
+    display: flex;
+    margin-left: 3px;
+}
+.search_bar{
+    display: flex;
+    height: 60px;
+    width: 60%;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+.search_bar select{
+    color: black;
+    background-color: rgb(217, 214, 214);
+    width: 50px;
+    height: 60px;
+    border: none;
+    text-align: center;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    
+}
+.search_bar input{
+    color: black    ;
+    padding: 0px;
+    width: 100%;
+    height: 60px;
+    border: none;
+    padding-left: 30px;
+    font-size: large;
+    background-color: rgb(242, 238, 238);
+}
+.search_go{
+    background-color: rgb(247, 142, 43);
+    height: 60px;
+    width: 50px;
+    border: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.op{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    
+}
+.country{
+    height: 60px;
+    width: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 5px;
+}
+.flag{
+    width: 40px;
+    height: 30px;
+    background-image:url(images/flag.ico);
+    background-size: cover;
+}
+.lang{
+    width: 40px;
+    height: 40px;
+    font-weight: 200;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: x-large;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    
+}
+.sign_in{
+    color: white;
+    height: 60px;
+    width: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    padding-left: 10px;
+}
+.hello {
+    font-size: 12px;
+
+}
+.account {
+    font-size: 15px;
+    font-weight:bold;
+
+}
+.r_d{
+    color: white;
+    height: 60px;
+    width: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    padding-left: 10px;
+}
+.returns {
+    font-size: 12px;
+
+}
+.orders {
+    font-size: 15px;
+    font-weight:bold;
+}
+.cart{
+    color: white;
+    height: 60px;
+    width: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.c_icon{
+    font-size: 35px;
+}
+.c_text{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.menu{
+    height: 35px;
+    background-color: rgb(37, 47, 60);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.all{
+    font-size: 15px;
+    color: white;
+    height: 28px;
+    width: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Amazon_miniTV {
+    font-size: 15px;
+    color: white;
+    height: 28px;
+    width: 115px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Sell {
+    font-size: 15px;
+    color: white;
+    height: 28px;
+    width: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Today_deals {
+    font-size: 15px;
+    color: white;
+    height: 28px;
+    width: 110px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Mobiles{
+    font-size: 15px;
+    color: white;
+    height: 28px;
+    width: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Customer_service{
+    font-size: 15px;
+    color: white;
+    height: 28px;
+    width: 130px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Electronics{
+    font-size: 15px;
+    color: white;
+    height: 28px;
+    width: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.New_releases{
+    font-size: 15px;
+    color: white;
+    height: 28px;
+    width: 110px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.H_K{
+    font-size: 15px;
+    color: white;
+    height: 28px;
+    width: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Fashion{
+    font-size: 15px;
+    color: white;
+    height: 28px;
+    width: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Gift_ideas{
+    font-size: 15px;
+    color: white;
+    height: 28px;
+    width: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Computers{
+    font-size: 15px;
+    color: white;
+    height: 28px;
+    width: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Books{
+    font-size: 15px;
+    color: white;
+    height: 28px;
+    width: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.BP{
+    font-size: 15px;
+    color: white;
+    height: 28px;
+    width: 180px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.New_launch{
+    font-size: 15px;
+    color: white;
+    height: 28px;
+    width: 330px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+    
+    
